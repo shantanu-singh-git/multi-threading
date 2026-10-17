@@ -1,0 +1,9 @@
+sources:
+  - name: raw
+
+    database: DBT_DB   ( Snowflake DB)
+
+    schema: DBT_SCHEMA (Snowflake Schema)
+
+    tables:
+      - name: orders (table which is storing the raw data)
